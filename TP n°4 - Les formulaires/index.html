@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exercice sur les formulaires">
+    <title>Les formulaires</title>
+    <style>
+        div {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CASSAN Simon - Les formulaires</h1>
+    </header>
+    <h2>Mon premier formulaire</h2>
+    <div>
+        <input type="radio" name="sexe" id="homme"><label for="homme">Homme</label>
+        <input type="radio" name="sexe" id="femme"><label for="femme">Femme</label>
+        <input type="radio" name="sexe" id="non_renseigné"><label for="non_renseigné">Non renseigné</label>
+    </div>
+    <div>
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom">
+    </div>
+    <div>
+        <label for="prénom">Prénom</label>
+        <input type="text" name="prénom" id="prénom">
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age" size="5">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="consentement" id="consentement">
+        <label for="consentement">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes
+            données personnelles. <a href="/404.html">(accéder aux mentions légales)</a></label>
+    </div>
+    <div>
+        <button>Envoyer le message</button>
+    </div>
+</body>
+
+</html>
