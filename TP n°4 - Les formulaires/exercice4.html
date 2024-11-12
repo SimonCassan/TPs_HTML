@@ -32,24 +32,24 @@
 
         <div>
           <label for="firstname">Prénom :</label>
-          <input type="text" name="nom" id="firstname" placeholder="ex: Dider" required>
+          <input type="text" name="prenom" id="firstname" placeholder="ex: Didier" required>
         </div>
 
         <div>
           <label for="prenomBis">Prénom n°2 :</label>
-          <input type="text" name="nom" id="prenomBis" placeholder="ex: Dider">
+          <input type="text" name="prenom2" id="prenomBis" placeholder="ex: Didier">
         </div>
 
         <div>
           <label for="prenomThird">Prénom n°3 :</label>
-          <input type="text" name="nom" id="prenomThird" placeholder="ex: Dider">
+          <input type="text" name="prenom3" id="prenomThird" placeholder="ex: Didier">
         </div>
       </fieldset>
 
       <fieldset>
         <legend> Ville : </legend>
-        <select>
-          <option>Choisissez parmi les options</option>
+        <select name="ville" required>
+          <option value="" selected>--Choisissez parmi les options--</option>
           <option value="Calais">Calais</option>
           <option value="Dunkerque">Dunkerque</option>
           <option value="Boulogne s/ Mer">Boulogne s/ Mer</option>
@@ -62,12 +62,12 @@
 
       <fieldset>
         <legend> Code Postal : </legend>
-        <input type="number" placeholder="ex: 02200" required>
+        <input type="number" name="code_postal" placeholder="ex: 02200" required>
       </fieldset>
 
       <fieldset>
         <legend> Adresse : </legend>
-        <textarea placeholder="Votre adresse" maxlength="40" required></textarea>
+        <textarea name="adresse" placeholder="Votre adresse" maxlength="40" required></textarea>
       </fieldset>
       <br>
       <button type="submit">Envoyer</button>
