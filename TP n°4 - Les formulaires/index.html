@@ -15,40 +15,40 @@
     </header>
     <h2>Mon premier formulaire</h2>
     <form action="#" method="post">
-        <p>
+        <div>
             <input type="radio" name="sexe" id="homme"><label for="homme">Homme</label>
             <input type="radio" name="sexe" id="femme"><label for="femme">Femme</label>
             <input type="radio" name="sexe" id="non_renseigné"><label for="non_renseigné">Non renseigné</label>
-        </p>
-        <p>
-            <label for="nom">Nom</label>
-            <input type="text" name="nom" id="nom">
-        </p>
-        <p>
-            <label for="prénom">Prénom</label>
-            <input type="text" name="prénom" id="prénom">
-        </p>
-        <p>
+        </div>
+        <div>
+            <label for="name">Nom</label>
+            <input type="text" name="lastname" id="name">
+        </div>
+        <div>
+            <label for="subname">Prénom</label>
+            <input type="text" name="firstname" id="subname">
+        </div>
+        <div>
             <label for="age">Age</label>
             <input type="number" name="age" id="age" min="16" max="99">
-        </p>
-        <p>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-        </p>
-        <p>
+        </div>
+        <div>
+            <label for="e-mail">Email</label>
+            <input type="email" name="email1" id="e-mail">
+        </div>
+        <div>
             <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
-        </p>
-        <p>
-            <input type="checkbox" name="consentement" id="consentement">
-            <label for="consentement">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes
+            <textarea name="msg" id="message"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="consent" id="consent">
+            <label for="consent">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes
                 données personnelles. <a href="/404.html" target="_blank" aria-label="accéder aux mentions légales"
                     title="accéder aux mentions légales">(accéder aux mentions légales)</a></label>
-        </p>
-        <p>
-            <button>Envoyer le message</button>
-        </p>
+        </div>
+        <div>
+            <button type="submit">Envoyer le message</button>
+        </div>
     </form>
 
     <hr>
@@ -58,50 +58,50 @@
             <legend>MON SECOND FORMULAIRE</legend>
             <fieldset>
                 <legend>Identité</legend>
-                <p>
-                    <input type="radio" name="sexe2" id="homme2" checked><label for="homme2">Homme</label>
-                    <input type="radio" name="sexe2" id="femme2"><label for="femme2">Femme</label>
-                    <input type="radio" name="sexe2" id="non_renseigné2"><label for="non_renseigné2">Non
+                <div>
+                    <input type="radio" name="sexe2" id="male2" checked><label for="male2">Homme</label>
+                    <input type="radio" name="sexe2" id="female2"><label for="female2">Femme</label>
+                    <input type="radio" name="sexe2" id="unknow2"><label for="unknow2">Non
                         renseigné</label>
-                </p>
-                <p>
-                    <label for="nom">Nom</label>
-                    <input type="text" name="nom2" id="nom2" placeholder="Nom">
-                </p>
-                <p>
-                    <label for="prenom2">Prénom</label>
-                    <input type="text" name="prenom2" id="prenom2" placeholder="Prénom">
-                </p>
-                <p>
+                </div>
+                <div>
+                    <label for="name2">Nom</label>
+                    <input type="text" name="lastname2" id="name2" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="subname2">Prénom</label>
+                    <input type="text" name="firstname2" id="subname2" placeholder="Prénom">
+                </div>
+                <div>
                     <label for="age2">Age</label>
                     <input type="number" name="age2" id="age2" min="16" max="99" placeholder="Age">
-                </p>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Situation personnelle</legend>
-                <p>
+                <div>
                     <input type="radio" name="situation" id="celib" checked><label for="celib">Célibataire</label>
                     <input type="radio" name="situation" id="marie"><label for="marie">Marié</label>
                     <input type="radio" name="situation" id="veuf"><label for="veuf">Veuf</label>
                     <input type="radio" name="situation" id="union_libre"><label for="union_libre">Union libre</label>
-                </p>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Contact</legend>
-                <p>
-                    <label for="tel">Téléphone</label>
-                    <input type="tel" name="tel" id="tel" placeholder="Numéro de téléphone">
-                </p>
-                <p>
-                    <label for="email2">Email</label>
-                    <input type="email" name="email2" id="email2" placeholder="Email">
-                </p>
+                <div>
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" name="telephone" id="phone" placeholder="Numéro de téléphone">
+                </div>
+                <div>
+                    <label for="e-mail2">Email</label>
+                    <input type="email" name="email2" id="e-mail2" placeholder="Email">
+                </div>
             </fieldset>
-            <p>
-                <input type="checkbox" name="consentement2" id="consentement2">
-                <label for="consentement2">Je confirme l'exactitude des informations que j'ai renseigné</label>
-            </p>
-            <button>Transmettre mes coordonnées</button>
+            <div>
+                <input type="checkbox" name="consent2" id="consent2">
+                <label for="consent2">Je confirme l'exactitude des informations que j'ai renseigné</label>
+            </div>
+            <button type="submit">Transmettre mes coordonnées</button>
         </fieldset>
     </form>
 </body>
